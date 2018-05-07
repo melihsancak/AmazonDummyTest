@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Tests]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test1(failed)" verbose="0">
+    <classes>
+      <class name="amazonTests.com.SampleTestNgTest">
+        <methods>
+          <include name="testHomePageHasAHeader"/>
+          <include name="initPageObjects"/>
+          <include name="tearDown"/>
+          <include name="initTestSuite"/>
+          <include name="initWebDriver"/>
+        </methods>
+      </class> <!-- amazonTests.com.SampleTestNgTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Tests] -->
